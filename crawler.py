@@ -104,16 +104,14 @@ def craper(phone_number, email_recv):
                     print 'status:', status_text
 
                     print "Sending text message now..."
-                    send_msg('xyg125@gmail.com', 'GXYgxy125', '%s@txt.att.net'%(phone_number), 'Class Info Reminder', "%s's status now is %s !"%(class_name, class_status))
-                    print "Sending text message now..."
-                    send_msg('xyg125@gmail.com', 'GXYgxy125', '%s@txt.att.net'%('6073799117'), 'Class Info Reminder', "%s's status now is %s !"%(class_name, class_status))
+                    send_msg('xygSender20160127@gmail.com', 'GXYgxy125', '%s@txt.att.net'%(phone_number), 'Class Info Reminder', "%s's status now is %s !"%(class_name, class_status))
                     print "Sending email now..."
-                    send_msg('xyg125@gmail.com', 'GXYgxy125', email_recv, 'Class Info Reminder', "%s's status now is %s !"%(class_name, class_status))
+                    send_msg('xygSender20160127@gmail.com', 'GXYgxy125', email_recv, 'Class Info Reminder', "%s's status now is %s !"%(class_name, class_status))
 
                     print "Sending text message now..."
-                    send_msg('xyg125@gmail.com', 'GXYgxy125', '%s@txt.att.net'%(phone_number), 'Class Info Reminder', "You have '%s' enrolled in '%s' AND msg status is '%s'!!!"%(status_text, class_name, msg_text))
+                    send_msg('xygSender20160127@gmail.com', 'GXYgxy125', '%s@txt.att.net'%(phone_number), 'Class Info Reminder', "You have '%s' enrolled in '%s' AND msg status is '%s'!!!"%(status_text, class_name, msg_text))
                     print "Sending email now..."
-                    send_msg('xyg125@gmail.com', 'GXYgxy125', email_recv, 'Class Info Reminder', "You have '%s' enrolled in '%s' AND msg status is '%s'!!!"%(status_text, class_name, msg_text))
+                    send_msg('xygSender20160127@gmail.com', 'GXYgxy125', email_recv, 'Class Info Reminder', "You have '%s' enrolled in '%s' AND msg status is '%s'!!!"%(status_text, class_name, msg_text))
                     
                     browser.quit()
             except:
