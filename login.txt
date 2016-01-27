@@ -1,4 +1,0 @@
-netid
-netid_password
-phone_number
-gmail_address
